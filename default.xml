@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="git://github.com/" />
+
+  <default revision="refs/heads/ics"
+           remote="github"
+           sync-j="4" />
+
+  <project path="build" name="CM9-D2G/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="android" name="CM9-D2G/aosp" remote="github" revision="cm9" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
+  <project path="development" name="CyanogenMod/android_development" />
+  <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="device/motorola/hijack" name="CM9-D2G/android_device_moto_hijack" remote="github" revision="ics" />
+  <project path="device/motorola/omap34com" name="rongsang/android_device_motorola_omap34com" remote="github" revision="master" />
+  <project path="device/motorola/kronos" name="rongsang/android_device_motorola_kronos" remote="github" revision="master" />
+  <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" />
+  <project path="libcore" name="CM9-D2G/android_libcore" />
+  <project path="ndk" name="CyanogenMod/android_ndk" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
+  <project path="vendor/cm" name="CM9-D2G/android_vendor_cm" />
+  <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
+  </manifest>
