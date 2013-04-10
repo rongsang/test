@@ -344,9 +344,8 @@
   <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" revision="gingerbread" />
   <project path="packages/apps/OTAUpdater" name="OTAUpdateCenter/ota-update-centre" revision="master" />
-  <project path="device/moto/milestone2" name="tezet/android_device_motorola_milestone2" revision="jb_2ndboot"/>
-  <project path="kernel/moto/milestone2" name="tezet/kernel-milestone2" revision="2.6.32"/>
-  <project path="vendor/motorola" name="tezet/proprietary_vendor_motorola" revision="jb_2ndboot"/>
+  <project path="device/moto/milestone2" name="rongsang/android_device_motorola_kronos" revision="jellybean"/>
+  <project path="vendor/motorola" name="rongsang/proprietary_vendor_motorola" revision="jellybean"/>
 
 
 </manifest>
