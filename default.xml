@@ -343,7 +343,7 @@
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" revision="gingerbread" />
   <project path="packages/apps/OTAUpdater" name="OTAUpdateCenter/ota-update-centre" revision="master" />
   <project path="device/moto/kronos" name="rongsang/android_device_motorola_kronos" revision="jellybean"/>
-  <project path="vendor/motorola" name="rongsang/proprietary_vendor_motorola" revision="master"/>
+  <project path="vendor/motorola" name="rongsang/proprietary_vendor_motorola" revision="jellybean"/>
 
 
 </manifest>
