@@ -336,7 +336,7 @@
 
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" />
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
-  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" />
+  <project path="external/bootmenu" name="rongsang/android_external_bootmenu" />
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
   <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
